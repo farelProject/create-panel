@@ -2,7 +2,7 @@
 
 Halo! Jangan lupa follow ya:
 
-**Instagram:***
+**Instagram:**
 *https://instagram.com/farel.project_5*
 **TikTok:**
 *https://tiktok.com/@farel.project_5*
