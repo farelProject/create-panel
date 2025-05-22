@@ -1,9 +1,10 @@
-````markdown
 # Create Panel
 
 Halo! Jangan lupa follow ya:
-- Instagram: [@farel.project_5](https://instagram.com/farel.project_5)
-- TikTok: [@farel.project_5](https://tiktok.com/@farel.project_5)
+- Instagram: [@farel.project_5]
+- (https://instagram.com/farel.project_5)
+- TikTok: [@farel.project_5]
+- (https://tiktok.com/@farel.project_5)
 
 ## Tentang
 
@@ -16,7 +17,8 @@ Berikut adalah langkah-langkah untuk menginstal:
 1. Klik tombol **Code**, lalu pilih **Codespaces**, dan tunggu hingga proses loading selesai.
 
 2. Buka terminal dan jalankan perintah berikut:
-   ```bash
+
+```bash
    sudo su
    apt update && apt upgrade
 ````
