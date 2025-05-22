@@ -1,24 +1,43 @@
-# create-panel
-halo bang jangan lupa folow ya!! 
-instagram : farel.project_5
-tiktok : farel.project_5
+````markdown
+# Create Panel
 
-# Tentang
-Pembuat : FarelAlfareza
+Halo! Jangan lupa follow ya:
+- Instagram: [@farel.project_5](https://instagram.com/farel.project_5)
+- TikTok: [@farel.project_5](https://tiktok.com/@farel.project_5)
 
-# Install
+## Tentang
 
-1.Kalian Klik tombol code terus pilih code spac, dan tunggu proses loading
+**Pembuat**: Farel Alfareza
 
-2.buka terminal lalu ketik
-**sudo su**
+## Instalasi
 
-setelah sudah mengetik kalian ketik lagi
-**apt update**
-**apt upgrade**
+Berikut adalah langkah-langkah untuk menginstal:
 
-3.buat link panel dengan mengetik 
-**docker-compose up -d**
+1. Klik tombol **Code**, lalu pilih **Codespaces**, dan tunggu hingga proses loading selesai.
 
-4.silahkan buat akun panel dengan mengetik
-**docker-compose run --rm panel php artisan p:user:make**
+2. Buka terminal dan jalankan perintah berikut:
+   ```bash
+   sudo su
+   apt update && apt upgrade
+````
+
+3. Jalankan Docker Compose untuk membuat panel:
+
+   ```bash
+   docker-compose up -d
+   ```
+
+4. Buat akun panel dengan perintah berikut:
+
+   ```bash
+   docker-compose run --rm panel php artisan p:user:make
+   ```
+
+---
+
+Pastikan Docker dan Docker Compose sudah terinstal sebelum menjalankan perintah di atas.
+
+```
+
+Jika ada tambahan fitur atau instruksi, kamu bisa tambahkan di bagian akhir. Mau sekalian bantu buatkan instruksi setup Docker juga?
+```
