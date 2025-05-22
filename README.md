@@ -1,9 +1,9 @@
 # Create Panel
 
 Halo! Jangan lupa follow ya:
-- Instagram: [@farel.project_5]
+**- Instagram:**
 - (https://instagram.com/farel.project_5)
-- TikTok: [@farel.project_5]
+**- TikTok:**
 - (https://tiktok.com/@farel.project_5)
 
 ## Tentang
@@ -38,8 +38,3 @@ Berikut adalah langkah-langkah untuk menginstal:
 ---
 
 Pastikan Docker dan Docker Compose sudah terinstal sebelum menjalankan perintah di atas.
-
-```
-
-Jika ada tambahan fitur atau instruksi, kamu bisa tambahkan di bagian akhir. Mau sekalian bantu buatkan instruksi setup Docker juga?
-```
