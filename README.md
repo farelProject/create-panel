@@ -2,10 +2,10 @@
 
 Halo! Jangan lupa follow ya:
 
-**- Instagram:**
-- (https://instagram.com/farel.project_5)
-**- TikTok:**
-- (https://tiktok.com/@farel.project_5)
+**Instagram:***
+*https://instagram.com/farel.project_5*
+**TikTok:**
+*https://tiktok.com/@farel.project_5*
 
 ## Tentang
 
