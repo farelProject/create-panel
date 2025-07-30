@@ -1,22 +1,31 @@
-FROM php:8.1-fpm
+# Gunakan base image PHP dengan ekstensi yang dibutuhkan
+FROM php:8.2-fpm
 
-# Install dependencies
-RUN apt-get update && apt-get upgrade -y && apt-get install -y \
-    git unzip curl zip \
-    libzip-dev libpng-dev \
+# Install dependencies sistem
+RUN apt-get update && apt-get install -y \
+    git \
+    unzip \
+    curl \
+    libzip-dev \
+    zip \
     && docker-php-ext-install zip pdo pdo_mysql
 
 # Install Composer
 COPY --from=composer:2 /usr/bin/composer /usr/bin/composer
 
-# Set working directory
-WORKDIR /var/www/panel
+# Set workdir ke dalam container
+WORKDIR /var/www/html
 
-# Salin project kamu ke dalam image jika perlu (jika pakai bind mount di docker-compose, ini boleh diabaikan)
-# COPY . .
+# Salin semua file proyek Laravel ke dalam container
+COPY . .
 
-# Install Laravel dan dependencies
+# Install dependencies Laravel
 RUN composer install --no-interaction --prefer-dist --optimize-autoloader
 
-# Ubah permission
-RUN chown -R www-data:www-data /var/www/panel
+# Set permission untuk Laravel
+RUN chown -R www-data:www-data /var/www/html && chmod -R 755 /var/www/html
+
+# Expose port (jika pakai Laravel dev server)
+EXPOSE 8000
+
+CMD ["php-fpm"]
